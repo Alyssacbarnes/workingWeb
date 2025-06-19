@@ -35,6 +35,11 @@ li {
 .flex-1 {
     flex: 1;
 }
+
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -43,6 +48,14 @@ li {
 
 .text--pink {
     color: #ff0070;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.section__title {
+margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR */
@@ -96,6 +109,10 @@ nav {
     flex-direction: column;
 }
 
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -136,3 +153,48 @@ margin-bottom: 28px;
     color: #ff0070;
     padding: 0 10px;
 }
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+ width: 100%;
+  animation: fade-in 1200ms 800ms backwards;
+}
+
+/* TECHNOLOGY STACK */
+
+.language__img {
+    width: 100%;
+    max-width: 70px;
+    transition: all 300ms ease-in-out;
+}
+
+.language__img:hover {
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(1.5);
+}
+
+
+.language {
+    width: 25%;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 10px;
+
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
