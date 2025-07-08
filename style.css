@@ -307,3 +307,30 @@ z-index: 2;
     text-align: left;
     color: white;
 }
+
+
+/* FOOTER */
+
+footer {
+    background-color: #ff0070;
+}
+
+.footer__row  {
+    padding: 8% 0;
+}
+
+.footer__logo--img {
+    width: 70px;
+    height: 70px;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__social--list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
